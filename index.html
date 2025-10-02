@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LC Sistemas - Parceria para Revenda de Software</title>
-    <meta name="description" content="O melhor modelo de parceria para revenda de software. O único modelo que tem como principal objetivo o sucesso da sua revenda.">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BritosCode Tecnologia - Revenda de Software</title>
+    <meta name="description" content="O melhor modelo de parceria para revenda de software. O único modelo que tem como principal objetivo o sucesso da sua revenda." />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <!-- Header Fixo -->
     <header class="header">
-  <div class="container">
-    <div class="header__content">
-      <div class="logo">
-        <div class="logo__image">
-          <img src="images/logo.jpg" alt="BritosCode Tecnologia" />
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <div class="logo__image">
+                        <img src="images/logo.jpg" alt="BritosCode Tecnologia" />
+                    </div>
+                    <h1 class="logo__text">BritosCode Tecnologia</h1>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#home" class="nav__link active">Home</a></li>
+                        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                        <li><a href="#segmentos" class="nav__link">Segmentos</a></li>
+                        <li><a href="#contato" class="nav__link">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
-        <h1 class="logo__text">BritosCode Tecnologia</h1>
-      </div>
-
-      <nav class="nav">
-        <ul class="nav__list">
-          <li><a href="#home" class="nav__link active">Home</a></li>
-          <li><a href="#sobre" class="nav__link">Sobre</a></li>
-          <li><a href="#segmentos" class="nav__link">Segmentos</a></li>
-          <li><a href="#blog" class="nav__link">Blog</a></li>
-          <li><a href="#contato" class="nav__link">Contato</a></li>
-        </ul>
-      </nav>
-
-      <button class="menu-toggle" aria-label="Abrir menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </div>
-</header>
+    </header>
 
     <main>
         <!-- Seção Home -->
@@ -45,9 +44,11 @@
             <div class="hero">
                 <div class="container">
                     <div class="hero__content">
-                        <!-- ALTERE AQUI: Títulos principais da sua empresa -->
                         <h1 class="hero__title">O melhor sistema para te ajudar na gestão da sua empresa</h1>
-                        <p class="hero__subtitle">O único modelo de gestão que tem como principal objetivo o <strong>sucesso da sua empresa.</strong></p>
+                        <p class="hero__subtitle">
+                            O único modelo de gestão que tem como principal objetivo o
+                            <strong>sucesso da sua empresa.</strong>
+                        </p>
                         <div class="hero__buttons">
                             <a href="#contato" class="btn btn--primary">Entre em Contato</a>
                             <a href="#sobre" class="btn btn--secondary">Saiba Mais</a>
@@ -61,60 +62,46 @@
                 <div class="container">
                     <h2 class="features__title">Conheça algumas funcionalidades de nosso ecossistema:</h2>
                     <div class="features__grid">
-                        <div class="feature-card">
+                        <div class="feature-card" id="pdv">
                             <div class="feature-card__icon">PDV</div>
-                             <div class="feature-card__video">
+                            <div class="feature-card__video">
                                 <video width="100%" height="315" autoplay muted loop playsinline>
-                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/PDV_VIDEO.mp4" type="video/mp4">
+                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/PDV_VIDEO.mp4" type="video/mp4" />
                                     Seu navegador não suporta vídeo HTML5.
                                 </video>
                                 <p>Realize vendas em poucos cliques com um PDV intuitivo e de fácil utilização.</p>
                             </div>
                         </div>
-                       <div class="feature-card">
- <div class="feature-card__icon">Fiscal</div>
-                           
-                           <div class="feature-card__video">
-                               <video width="100%" height="315" autoplay muted loop playsinline>
-                                   <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/FISCAL_VIDEO.mp4" type="video/mp4">
-                                   Seu navegador não suporta vídeo HTML5.
-                                </video>
-                                <p>Emita documentos fiscais de maneira simples, rápida e prática.</p>
-</div>
-</div>
-                        <div class="feature-card">
-  <div class="feature-card__icon">Financeiro</div>
-                            
+                        <div class="feature-card" id="fiscal">
+                            <div class="feature-card__icon">Fiscal</div>
                             <div class="feature-card__video">
                                 <video width="100%" height="315" autoplay muted loop playsinline>
-                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/VIDEO_FINANCEIRO.mp4" type="video/mp4">
+                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/FISCAL_VIDEO.mp4" type="video/mp4" />
+                                    Seu navegador não suporta vídeo HTML5.
+                                </video>
+                                <p>Emita documentos fiscais de maneira simples, rápida e prática.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card" id="financeiro">
+                            <div class="feature-card__icon">Financeiro</div>
+                            <div class="feature-card__video">
+                                <video width="100%" height="315" autoplay muted loop playsinline>
+                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/VIDEO_FINANCEIRO.mp4" type="video/mp4" />
                                     Seu navegador não suporta vídeo HTML5.
                                 </video>
                                 <p>Controle o fluxo financeiro de sua empresa sem dores de cabeça.</p>
-  </div>
-</div>
-                        <div class="feature-card">
-  <div class="feature-card__icon">Estoque</div>
-  
-  <div class="feature-card__video">
-      <video width="100%" height="315" autoplay muted loop playsinline>
-          <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/ESTOQUE-LC-SISTEMAS.mp4" type="video/mp4">
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-        <p>Mantenha seu estoque organizado com o auxílio de nosso software.</p>
-  </div>
-</div>
-                        <div class="feature-card">
-  <div class="feature-card__icon">Dashboard</div>
-  
-  <div class="feature-card__video">
-      <video width="100%" height="315" autoplay muted loop playsinline>
-          <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/LC-SISTEMAS-DASHBOARD.mp4" type="video/mp4">
-          Seu navegador não suporta vídeo HTML5.
-        </video>
-        <p>Tenha uma visão clara sobre sua empresa com indicadores estratégicos.</p>
-  </div>
-</div>
+                            </div>
+                        </div>
+                        <div class="feature-card" id="estoque">
+                            <div class="feature-card__icon">Estoque</div>
+                            <div class="feature-card__video">
+                                <video width="100%" height="315" autoplay muted loop playsinline>
+                                    <source src="https://lcsistemas.com.br/wp-content/uploads/2024/07/ESTOQUE-LC-SISTEMAS.mp4" type="video/mp4" />
+                                    Seu navegador não suporta vídeo HTML5.
+                                </video>
+                                <p>Mantenha seu estoque organizado com o auxílio de nosso software.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -126,22 +113,71 @@
                     <div class="apps__grid">
                         <div class="app-card">
                             <h3>Dashboard</h3>
+                            <div class="app-card__image">
+                                <img
+                                    src="https://lcsistemas.com.br/wp-content/uploads/2024/07/lc-sistemas-dashboard.gif"
+                                    alt="Dashboard LC Sistemas"
+                                    width="150"
+                                    height="220"
+                                    loading="lazy"
+                                />
+                            </div>
                             <p>Visão clara da sua empresa em tempo real</p>
                         </div>
+
                         <div class="app-card">
                             <h3>Vendas Externas</h3>
+                            <div class="app-card__image">
+                                <img
+                                    src="https://lcsistemas.com.br/wp-content/uploads/2024/07/FORCA-DE-VENDAS-PNG.gif"
+                                    alt="Força de Vendas"
+                                    width="150"
+                                    height="220"
+                                    loading="lazy"
+                                />
+                            </div>
                             <p>Controle e gerencie suas vendas externas</p>
                         </div>
+
                         <div class="app-card">
                             <h3>Balcão Mobile</h3>
+                            <div class="app-card__image">
+                                <img
+                                    src="https://lcsistemas.com.br/wp-content/uploads/2024/07/lc-sistemas-balcao.gif"
+                                    alt="Balcão Mobile"
+                                    width="150"
+                                    height="220"
+                                    loading="lazy"
+                                />
+                            </div>
                             <p>Realize atendimentos ágeis e sem complicações</p>
                         </div>
+
                         <div class="app-card">
-                            <h3>PDV Mobile</h3>
-                            <p>Tenha um balcão móvel dentro da sua empresa</p>
+                            <h3>Gourmet Mobile</h3>
+                            <div class="app-card__image">
+                                <img
+                                    src="https://lcsistemas.com.br/wp-content/uploads/2024/07/GOUMERT-GIF.gif"
+                                    alt="Gourmet Mobile"
+                                    width="150"
+                                    height="220"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <p>Atenda suas mesas e controle suas comandas</p>
                         </div>
+
                         <div class="app-card">
                             <h3>Estoque Mobile</h3>
+                            <div class="app-card__image">
+                                <img
+                                    src="https://lcsistemas.com.br/wp-content/uploads/2024/07/lc-sistemas-coletor-de-dados.gif"
+                                    alt="Estoque Mobile"
+                                    width="150"
+                                    height="220"
+                                    loading="lazy"
+                                />
+                            </div>
                             <p>Organize seu estoque usando apenas seu celular</p>
                         </div>
                     </div>
@@ -161,7 +197,6 @@
                             <span class="stat-number" data-target="400">550</span>
                             <p>cidades cobertas</p>
                         </div>
-                        
                         <div class="stat-item">
                             <span class="stat-number" data-target="4300">6000+</span>
                             <p>clientes impactados</p>
@@ -183,27 +218,74 @@
         <section id="sobre" class="section">
             <div class="container">
                 <div class="sobre__content">
-                    <h2>Sobre Nossa Empresa</h2>
-                    <!-- ALTERE AQUI: História da sua empresa -->
-                    <p>Nossa história começou com o objetivo de transformar vidas através da tecnologia. Somos uma empresa que acredita no poder da inovação para revolucionar negócios.</p>
-                    
-                    <div class="sobre__grid">
-                        <div class="sobre__item">
-                            <h3>Nossa Missão</h3>
-                            <p>Transformar vidas através de soluções tecnológicas inovadoras.</p>
+                    <div class="sobre__hero">
+                        <h2>Conheça a BritosCode Tecnologia</h2>
+                        <p class="sobre__intro">Somos especialistas em tecnologia e gestão empresarial, oferecendo soluções completas para impulsionar o crescimento do seu negócio através de sistemas de gestão integrados e consultoria tecnológica personalizada.</p>
+                    </div>
+
+                    <div class="sobre__historia">
+                        <div class="sobre__texto">
+                            <h3>Nossa História</h3>
+                            <p>A BritosCode Tecnologia nasceu da paixão por transformar negócios através da tecnologia. Com anos de experiência no mercado de TI e gestão empresarial, identificamos as principais dificuldades que os empresários enfrentam no dia a dia e desenvolvemos soluções práticas e eficientes.</p>
+                            <p>Nosso compromisso vai além da venda de software: somos parceiros estratégicos que acompanham nossos clientes em sua jornada de crescimento e digitalização.</p>
                         </div>
-                        <div class="sobre__item">
-                            <h3>Nossa Visão</h3>
-                            <p>Ser referência nacional em soluções para revenda de software.</p>
+                        <div class="sobre__imagem">
+                            <div class="sobre__card-destaque">
+                                <h4>🚀 Transformação Digital</h4>
+                                <p>Levamos sua empresa para o próximo nível</p>
+                            </div>
                         </div>
-                        <div class="sobre__item">
-                            <h3>Nossos Valores</h3>
-                            <ul>
-                                <li>Inovação constante</li>
-                                <li>Foco no cliente</li>
-                                <li>Excelência em atendimento</li>
-                                <li>Transparência total</li>
-                            </ul>
+                    </div>
+
+                    <div class="sobre__valores">
+                        <div class="sobre__grid">
+                            <div class="sobre__item">
+                                <div class="sobre__icon">🎯</div>
+                                <h3>Nossa Missão</h3>
+                                <p>Impulsionar o crescimento de empresas através de soluções tecnológicas inovadoras, oferecendo sistemas de gestão integrados que simplificam processos e maximizam resultados.</p>
+                            </div>
+                            <div class="sobre__item">
+                                <div class="sobre__icon">👁️</div>
+                                <h3>Nossa Visão</h3>
+                                <p>Ser reconhecida como a principal referência em soluções de gestão empresarial e consultoria tecnológica, sendo a primeira escolha dos empresários que buscam crescimento sustentável.</p>
+                            </div>
+                            <div class="sobre__item">
+                                <div class="sobre__icon">💎</div>
+                                <h3>Nossos Valores</h3>
+                                <ul>
+                                    <li>Excelência em atendimento e suporte</li>
+                                    <li>Inovação constante em soluções</li>
+                                    <li>Transparência total com nossos clientes</li>
+                                    <li>Compromisso com resultados reais</li>
+                                    <li>Parceria duradoura e confiável</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sobre__diferenciais">
+                        <h3>Por que escolher a BritosCode?</h3>
+                        <div class="diferenciais__grid">
+                            <div class="diferencial__item">
+                                <span class="diferencial__numero">01</span>
+                                <h4>Experiência Comprovada</h4>
+                                <p>Anos de mercado atendendo empresas de todos os portes</p>
+                            </div>
+                            <div class="diferencial__item">
+                                <span class="diferencial__numero">02</span>
+                                <h4>Suporte Especializado</h4>
+                                <p>Equipe técnica dedicada para garantir seu sucesso</p>
+                            </div>
+                            <div class="diferencial__item">
+                                <span class="diferencial__numero">03</span>
+                                <h4>Soluções Personalizadas</h4>
+                                <p>Adaptamos nossos sistemas às necessidades do seu negócio</p>
+                            </div>
+                            <div class="diferencial__item">
+                                <span class="diferencial__numero">04</span>
+                                <h4>Consultoria Inclusa</h4>
+                                <p>Orientamos sua empresa na implementação e otimização</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -213,47 +295,96 @@
         <!-- Seção Segmentos -->
         <section id="segmentos" class="section">
             <div class="container">
-                <h2>Segmentos Atendidos</h2>
-                <p class="segmentos__intro">Atendemos diversos segmentos com soluções personalizadas para cada necessidade.</p>
-                
-                <div class="segmentos__grid">
-                    <div class="segmento-card">🛒 Supermercados</div>
-                    <div class="segmento-card">💊 Farmácias</div>
-                    <div class="segmento-card">🔧 Materiais de Construção</div>
-                    <div class="segmento-card">📦 Distribuidoras</div>
-                    <div class="segmento-card">⛽ Postos de Combustível</div>
-                    <div class="segmento-card">👔 Lojas de Roupas</div>
-                    <div class="segmento-card">🍕 Restaurantes</div>
-                    <div class="segmento-card">🔧 Oficinas</div>
-                    <div class="segmento-card">🐕 Pet Shops</div>
-                    <div class="segmento-card">➕ Mais de 30 segmentos</div>
+                <div class="segmentos__header">
+                    <h2>Segmentos que Atendemos</h2>
+                    <p class="segmentos__intro">Oferecemos soluções especializadas para diversos segmentos, com funcionalidades específicas que atendem as particularidades de cada tipo de negócio.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Seção Blog -->
-        <section id="blog" class="section">
-            <div class="container">
-                <h2>Confira nosso Blog</h2>
-                
-                <div class="blog__grid">
-                    <article class="blog-card">
-                        <h3>Sua revenda na rua mais movimentada do mundo: A internet</h3>
-                        <p>Vivemos em um cenário onde a internet se tornou a rua mais movimentada do mundo, um lugar onde seus potenciais clientes estão presentes todos os dias...</p>
-                        <a href="#" class="blog-card__link">Ler mais »</a>
-                    </article>
-                    
-                    <article class="blog-card">
-                        <h3>Técnicas de vendas que sua revenda precisa aderir</h3>
-                        <p>Se você se pergunta porque as vendas na sua revenda de sistema não têm um resultado eficaz como os seus concorrentes, a resposta pode estar nas técnicas...</p>
-                        <a href="#" class="blog-card__link">Ler mais »</a>
-                    </article>
-                    
-                    <article class="blog-card">
-                        <h3>Como ter um PDV rápido é essencial para as vendas</h3>
-                        <p>No mercado de revenda de software, oferecer soluções que otimizem as operações de seus clientes é, sem dúvida, a chave para construir uma base sólida...</p>
-                        <a href="#" class="blog-card__link">Ler mais »</a>
-                    </article>
+                <div class="segmentos__principais">
+                    <h3>Nossos Segmentos Principais</h3>
+                    <div class="segmentos__grid-principal">
+                        <div class="segmento-destaque">
+                            <div class="segmento-destaque__icon">🛒</div>
+                            <h4>Supermercados e Mercearias</h4>
+                            <p>Sistema completo com controle de peso, promoções, cupons fiscais e gestão de perecíveis.</p>
+                            <ul>
+                                <li>Balança integrada</li>
+                                <li>Controle de validades</li>
+                                <li>Gestão de ofertas</li>
+                                <li>Relatórios de giro</li>
+                            </ul>
+                        </div>
+
+                        <div class="segmento-destaque">
+                            <div class="segmento-destaque__icon">💊</div>
+                            <h4>Farmácias e Drogarias</h4>
+                            <p>Solução específica com controle de medicamentos controlados e gestão de receitas.</p>
+                            <ul>
+                                <li>Controle de medicamentos</li>
+                                <li>Gestão de receitas</li>
+                                <li>Alertas de validade</li>
+                                <li>Integração ANVISA</li>
+                            </ul>
+                        </div>
+
+                        <div class="segmento-destaque">
+                            <div class="segmento-destaque__icon">🔧</div>
+                            <h4>Materiais de Construção</h4>
+                            <p>Sistema robusto para gestão de estoque pesado e vendas por m² ou kg.</p>
+                            <ul>
+                                <li>Controle por m²/kg</li>
+                                <li>Gestão de grandes volumes</li>
+                                <li>Controle de transportadora</li>
+                                <li>Orçamentos complexos</li>
+                            </ul>
+                        </div>
+
+                        <div class="segmento-destaque">
+                            <div class="segmento-destaque__icon">⛽</div>
+                            <h4>Postos de Combustível</h4>
+                            <p>Sistema integrado com bombas e controle de combustíveis líquidos.</p>
+                            <ul>
+                                <li>Integração com bombas</li>
+                                <li>Controle de tanques</li>
+                                <li>Gestão de conveniência</li>
+                                <li>Relatórios ANP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="segmentos__completos">
+                    <h3>Todos os Segmentos Atendidos</h3>
+                    <div class="segmentos__grid">
+                        <div class="segmento-card">🛒 Supermercados</div>
+                        <div class="segmento-card">💊 Farmácias</div>
+                        <div class="segmento-card">🔧 Materiais de Construção</div>
+                        <div class="segmento-card">📦 Distribuidoras</div>
+                        <div class="segmento-card">⛽ Postos de Combustível</div>
+                        <div class="segmento-card">👔 Lojas de Roupas</div>
+                        <div class="segmento-card">🍕 Restaurantes</div>
+                        <div class="segmento-card">🔧 Oficinas</div>
+                        <div class="segmento-card">🐕 Pet Shops</div>
+                        <div class="segmento-card">📱 Assistência Técnica</div>
+                        <div class="segmento-card">🏥 Clínicas</div>
+                        <div class="segmento-card">🚗 Autopeças</div>
+                        <div class="segmento-card">🏪 Varejo em Geral</div>
+                        <div class="segmento-card">🍰 Confeitarias</div>
+                        <div class="segmento-card">📚 Papelarias</div>
+                        <div class="segmento-card">🎵 Lojas de Música</div>
+                        <div class="segmento-card">💍 Joalherias</div>
+                        <div class="segmento-card">🌱 Agropecuárias</div>
+                        <div class="segmento-card">🏠 Lojas de Móveis</div>
+                        <div class="segmento-card">⚡ Materiais Elétricos</div>
+                    </div>
+                </div>
+
+                <div class="segmentos__cta">
+                    <div class="cta-card">
+                        <h3>Seu segmento não está na lista?</h3>
+                        <p>Não se preocupe! Nosso sistema é altamente personalizável e pode ser adaptado para atender as necessidades específicas do seu negócio.</p>
+                        <a href="#contato" class="btn btn--primary">Fale Conosco</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -261,80 +392,199 @@
         <!-- Seção Contato -->
         <section id="contato" class="section">
             <div class="container">
-                <h2>Entre em Contato</h2>
-                
+                <div class="contato__header">
+                    <h2>Entre em Contato</h2>
+                    <p class="contato__subtitle">Estamos prontos para ajudar sua empresa a crescer. Entre em contato conosco e descubra como podemos impulsionar seu negócio!</p>
+                </div>
+
                 <div class="contato__content">
                     <div class="contato__info">
-                        <!-- ALTERE AQUI: Informações da sua empresa -->
                         <h3>Informações de Contato</h3>
+
                         <div class="contato__item">
-                            <strong>📞 Telefone:</strong>
-                            <p>(11) 96609-2994</p>
+                            <div class="contato__icon">📞</div>
+                            <div class="contato__details">
+                                <strong>Telefone &amp; WhatsApp</strong>
+                                <p>(11) 96609-2994</p>
+                                <a href="https://wa.me/5511966092994" class="btn-whatsapp" target="_blank">💬 Chamar no WhatsApp</a>
+                            </div>
                         </div>
+
                         <div class="contato__item">
-                            <strong>📧 Email:</strong>
-                            <p>josemarbrito@pm.me</p>
+                            <div class="contato__icon">📧</div>
+                            <div class="contato__details">
+                                <strong>Email</strong>
+                                <p>josemarbrito@pm.me</p>
+                                <a href="mailto:josemarbrito@pm.me" class="btn-email">✉️ Enviar Email</a>
+                            </div>
                         </div>
+
                         <div class="contato__item">
-                            <strong>📍 Endereço:</strong>
-                            <p>Guaianases - São Paulo - SP</p>
+                            <div class="contato__icon">📍</div>
+                            <div class="contato__details">
+                                <strong>Localização</strong>
+                                <p>Guaianases - São Paulo - SP<br />Atendemos todo o Brasil</p>
+                            </div>
+                        </div>
+
+                        <div class="contato__item">
+                            <div class="contato__icon">🌐</div>
+                            <div class="contato__details">
+                                <strong>Site &amp; Portfólio</strong>
+                                <p><a href="https://entr.ai/britoscode" target="_blank" class="link-portfolio">entr.ai/britoscode</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contato__horarios">
+                            <h4>⏰ Horário de Atendimento</h4>
+                            <div class="horario-item">
+                                <span>Segunda a Sexta:</span>
+                                <span>08:00 às 18:00</span>
+                            </div>
+                            <div class="horario-item">
+                                <span>Sábados:</span>
+                                <span>08:00 às 12:00</span>
+                            </div>
+                            <div class="horario-item">
+                                <span>Domingos:</span>
+                                <span>Plantão via WhatsApp</span>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <form class="contato__form">
                         <h3>Envie uma Mensagem</h3>
-                        <div class="form-group">
-                            <label for="nome">Nome:</label>
-                            <input type="text" id="nome" name="nome" required>
+                        <p class="form-subtitle">Preencha o formulário abaixo e entraremos em contato em até 24 horas!</p>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo *</label>
+                                <input type="text" id="nome" name="nome" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="empresa">Nome da Empresa</label>
+                                <input type="text" id="empresa" name="empresa" />
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone/WhatsApp *</label>
+                                <input type="tel" id="telefone" name="telefone" required />
+                            </div>
                         </div>
+
                         <div class="form-group">
-                            <label for="telefone">Telefone:</label>
-                            <input type="tel" id="telefone" name="telefone">
+                            <label for="segmento">Segmento do seu Negócio</label>
+                            <select id="segmento" name="segmento">
+                                <option value="">Selecione uma opção</option>
+                                <option value="supermercado">Supermercado/Mercearia</option>
+                                <option value="farmacia">Farmácia/Drogaria</option>
+                                <option value="construcao">Materiais de Construção</option>
+                                <option value="posto">Posto de Combustível</option>
+                                <option value="restaurante">Restaurante/Lanchonete</option>
+                                <option value="roupas">Loja de Roupas</option>
+                                <option value="petshop">Pet Shop</option>
+                                <option value="oficina">Oficina Mecânica</option>
+                                <option value="outro">Outro</option>
+                            </select>
                         </div>
+
                         <div class="form-group">
-                            <label for="mensagem">Mensagem:</label>
-                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <label for="interesse">Principal Interesse</label>
+                            <select id="interesse" name="interesse">
+                                <option value="">Selecione uma opção</option>
+                                <option value="sistema-completo">Sistema de Gestão Completo</option>
+                                <option value="pdv">Sistema PDV</option>
+                                <option value="consultoria">Consultoria Tecnológica</option>
+                                <option value="suporte">Suporte Técnico</option>
+                                <option value="demonstracao">Solicitar Demonstração</option>
+                                <option value="orcamento">Solicitar Orçamento</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn btn--primary">Enviar Mensagem</button>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Conte-nos mais sobre sua empresa e suas necessidades..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="aceito" name="aceito" required />
+                                <span class="checkbox-custom"></span> Aceito receber informações por email e WhatsApp sobre soluções da BritosCode Tecnologia *
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn-submit">
+                            <span>🚀 Enviar Mensagem</span>
+                        </button>
+
+                        <p class="form-info">* Campos obrigatórios</p>
                     </form>
+                </div>
+
+                <div class="contato__cta">
+                    <div class="cta-urgente">
+                        <h3>🔥 Precisa de uma resposta rápida?</h3>
+                        <p>Para dúvidas urgentes ou demonstrações imediatas, entre em contato diretamente pelo WhatsApp!</p>
+                        <a href="https://wa.me/5511966092994" target="_blank" class="social-link">💬 WhatsApp</a>
+                    </div>
                 </div>
             </div>
         </section>
+        <br /><br /><br />
     </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
-                <!-- ALTERE AQUI: Informações do rodapé -->
                 <div class="footer__section">
                     <h4>BritosCode Tecnologia</h4>
-                    <p>O melhor modelo de parceria para sua empresa.</p>
+                    <p>Transformando empresas através da tecnologia. Seu parceiro estratégico em soluções de gestão.</p>
+                    <div class="footer__social">
+                        <a href="https://wa.me/5511966092994" target="_blank" class="social-link">📱 WhatsApp</a>
+                        <a href="https://entr.ai/britoscode" target="_blank" class="social-link">🌐 Portfólio</a>
+                    </div>
                 </div>
-                
+
                 <div class="footer__section">
-                    <h4>Links Úteis</h4>
+                    <h4>Navegação</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#segmentos">Segmentos</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer__section">
-                    <h4>Contato</h4>
-                    <p>📞 (11) 96609-2994</p>
-                    <p>📧 josemarbrito@pm.me</p>
+                    <h4>Contato Rápido</h4>
+                    <div class="footer__contact">
+                        <p>📞 (11) 96609-2994</p>
+                        <p>📧 josemarbrito@pm.me</p>
+                        <p>📍 São Paulo - SP</p>
+                    </div>
+                </div>
+
+                <div class="footer__section">
+                    <h4>Principais Soluções</h4>
+                    <ul>
+                        <li><a href="#pdv">Sistema PDV</a></li>
+                        <li><a href="#fiscal">Gestão Fiscal</a></li>
+                        <li><a href="#financeiro">Controle Financeiro</a></li>
+                        <li><a href="#estoque">Gestão de Estoque</a></li>
+                    </ul>
                 </div>
             </div>
-            
+
             <div class="footer__bottom">
                 <p>&copy; 2025 BritosCode Tecnologia. Todos os direitos reservados.</p>
+                <p>Desenvolvido com ❤️ para impulsionar seu negócio</p>
             </div>
         </div>
     </footer>
