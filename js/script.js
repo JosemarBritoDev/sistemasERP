@@ -245,8 +245,9 @@ if (phoneInput) {
 
 // Função para validação de email
 function validateEmail(email) {
-    const regex = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
+
 }
 
 // Validação em tempo real do email
